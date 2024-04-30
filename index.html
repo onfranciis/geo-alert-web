@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Alerts</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Secure Alerts</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alerts.html">Alerts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Development of Security Alerts using GPS Technology</h1>
+                    <p>Enhance the security of your tertiary institution with our state-of-the-art GPS technology. Get
+                        real-time security alerts and protect your campus.</p>
+                    <style></style>
+
+                    <div id="container">
+                        <h1>Security Alert System</h1>
+                        <label for="alertMessage">Alert Message:</label>
+                        <textarea id="alertMessage" rows="4" placeholder="Enter your alert message here"></textarea>
+                        <button onclick="sendAlert()">Send Alert</button>
+                        <p id="error"></p>
+                        <p id="successMessage" style="display: none;">Alert has been sent successfully!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h2>About Our System</h2>
+                    <p>Our security alert system integrates GPS technology to provide efficient and reliable security
+                        solutions for tertiary institutions. With our system, you can:</p>
+                    <ul>
+                        <li>Receive instant alerts when unauthorized individuals enter restricted areas</li>
+                        <li>Track and monitor the movement of security personnel in real-time</li>
+                        <li>Create custom security zones and receive notifications when they are breached</li>
+                        <li>Generate detailed reports and analytics for better security management</li>
+                        <li>Integrate with existing security systems for seamless operation</li>
+                    </ul>
+
+                </div>
+            </div>
+    </section>
+
+
+
+    <section id="alerts" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Secure Alerts</h2>
+                    <p>Stay informed and take immediate action with our security alerts:</p>
+                    <ul>
+                        <li>Receive real-time notifications on suspicious activities</li>
+                        <li>View detailed information about each alert, including location and time</li>
+                        <li>Manage and prioritize alerts with our intuitive dashboard</li>
+                        <li>Collaborate with security personnel to resolve incidents effectively</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="m-0 text-center">&copy; 2024 Secure Alerts. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="
